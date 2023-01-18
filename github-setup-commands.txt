@@ -14,7 +14,7 @@ Next Time Onwards
 3. git commit -m "some message"
 4. git push
 
-git remote set-url origin https://hamzajaa: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@github.com/hamzajaa/property-management.git
+git remote set-url origin https://hamzajaa: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@github.com/hamzajaa/property-management1.git
 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
 dd
 hhh
