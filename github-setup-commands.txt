@@ -1,0 +1,20 @@
+First Time Git & Github Setup
+==============================
+1. git init
+2. git add .
+3. git commit -m "any message"
+4. git remote add origin https://github.com/hamzajaa/property-management.git
+5. git remote set-url origin https://hamzajaa:<MYTOKEN>@github.com/hamzajaa/property-management.git
+6. git push --set-upstream origin master
+
+Next Time Onwards
+==================
+1. git pull
+2. git add .
+3. git commit -m "some message"
+4. git push
+
+git remote set-url origin https://hamzajaa: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@github.com/hamzajaa/property-management.git
+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
+dd
+hhh
