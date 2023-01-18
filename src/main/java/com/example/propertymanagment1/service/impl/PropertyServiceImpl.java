@@ -33,6 +33,8 @@ public class PropertyServiceImpl implements PropertyService {
     @Override
     public List<PropertyDTO> findAll() {
 
+        System.out.println("from one branch");
+
         List<PropertyEntity> listProperties = (List<PropertyEntity>) propertyRepository.findAll();
 
         List<PropertyDTO> propertyDTOStream = listProperties.stream().map(pe -> propertyConverter.convertEntityToDTO(pe)).toList();
