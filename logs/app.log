@@ -1,0 +1,109 @@
+2023-01-20 22:45:52,705 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-01-20 22:45:52,827 INFO c.e.p.PropertyManagment1Application [main] Starting PropertyManagment1Application using Java 19.0.1 with PID 9400 (C:\Users\21266\Downloads\Udemy Download\Ranjan Pandey\Zero to Hero Java SpringBoot & JPA Mastery with Real Project\code source\property-managment1\target\classes started by 21266 in C:\Users\21266\Downloads\Udemy Download\Ranjan Pandey\Zero to Hero Java SpringBoot & JPA Mastery with Real Project\code source\property-managment1)
+2023-01-20 22:45:52,831 INFO c.e.p.PropertyManagment1Application [main] The following 1 profile is active: "dev"
+2023-01-20 22:45:54,269 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-20 22:45:54,414 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 123 ms. Found 2 JPA repository interfaces.
+2023-01-20 22:45:55,660 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8056 (http)
+2023-01-20 22:45:55,680 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8056"]
+2023-01-20 22:45:55,682 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-01-20 22:45:55,683 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-20 22:45:55,885 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-01-20 22:45:55,886 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2910 ms
+2023-01-20 22:45:56,160 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-20 22:45:56,290 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-20 22:45:56,688 WARN o.h.o.deprecation [main] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-20 22:45:56,952 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-01-20 22:45:57,199 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c5747db
+2023-01-20 22:45:57,202 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-01-20 22:45:57,234 INFO SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-20 22:45:57,235 WARN o.h.o.deprecation [main] HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-01-20 22:45:59,028 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-20 22:45:59,053 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-20 22:45:59,747 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-20 22:46:00,371 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8056"]
+2023-01-20 22:46:00,416 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8056 (http) with context path ''
+2023-01-20 22:46:00,437 INFO c.e.p.PropertyManagment1Application [main] Started PropertyManagment1Application in 8.692 seconds (process running for 11.181)
+2023-01-20 22:47:29,880 INFO o.a.c.c.C.[.[.[/] [http-nio-8056-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-20 22:47:29,881 INFO o.s.w.s.DispatcherServlet [http-nio-8056-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-20 22:47:29,883 INFO o.s.w.s.DispatcherServlet [http-nio-8056-exec-1] Completed initialization in 1 ms
+2023-01-20 22:47:30,206 INFO c.e.p.e.CustomExceptionHandler [http-nio-8056-exec-1] Inside field validation: password - Password can't be empty
+2023-01-20 22:47:30,208 INFO c.e.p.e.CustomExceptionHandler [http-nio-8056-exec-1] Inside field validation: password - Password can't be null
+2023-01-20 22:50:43,397 INFO c.e.p.e.CustomExceptionHandler [http-nio-8056-exec-5] BusinessException is thrown -level-info: EMAIL_ALREADY_EXIST - The Email With You Are Trying To Register Already Exists
+2023-01-20 22:50:43,397 WARN c.e.p.e.CustomExceptionHandler [http-nio-8056-exec-5] BusinessException is thrown -level-warn: EMAIL_ALREADY_EXIST - The Email With You Are Trying To Register Already Exists
+2023-01-20 22:50:43,397 ERROR c.e.p.e.CustomExceptionHandler [http-nio-8056-exec-5] BusinessException is thrown -level-error: EMAIL_ALREADY_EXIST - The Email With You Are Trying To Register Already Exists
+2023-01-20 22:58:18,815 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-20 22:58:18,819 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-01-20 22:58:18,831 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-01-20 23:02:54,874 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-01-20 23:02:54,969 INFO c.e.p.PropertyManagment1Application [main] Starting PropertyManagment1Application using Java 19.0.1 with PID 15820 (C:\Users\21266\Downloads\Udemy Download\Ranjan Pandey\Zero to Hero Java SpringBoot & JPA Mastery with Real Project\code source\property-managment1\target\classes started by 21266 in C:\Users\21266\Downloads\Udemy Download\Ranjan Pandey\Zero to Hero Java SpringBoot & JPA Mastery with Real Project\code source\property-managment1)
+2023-01-20 23:02:54,969 INFO c.e.p.PropertyManagment1Application [main] The following 1 profile is active: "dev"
+2023-01-20 23:02:56,614 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-20 23:02:56,754 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 114 ms. Found 2 JPA repository interfaces.
+2023-01-20 23:02:57,737 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8056 (http)
+2023-01-20 23:02:57,759 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8056"]
+2023-01-20 23:02:57,759 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-01-20 23:02:57,759 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-20 23:02:57,944 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-01-20 23:02:57,944 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2837 ms
+2023-01-20 23:02:58,230 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-20 23:02:58,377 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-20 23:02:58,714 WARN o.h.o.deprecation [main] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-20 23:02:58,967 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-01-20 23:02:59,268 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c5f29c6
+2023-01-20 23:02:59,268 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-01-20 23:02:59,311 INFO SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-20 23:02:59,311 WARN o.h.o.deprecation [main] HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-01-20 23:03:00,906 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-20 23:03:00,924 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-20 23:03:01,594 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-20 23:03:02,113 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8056"]
+2023-01-20 23:03:02,145 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8056 (http) with context path ''
+2023-01-20 23:03:02,154 INFO c.e.p.PropertyManagment1Application [main] Started PropertyManagment1Application in 8.256 seconds (process running for 10.388)
+2023-01-20 23:03:18,185 INFO o.a.c.c.C.[.[.[/] [http-nio-8056-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-20 23:03:18,186 INFO o.s.w.s.DispatcherServlet [http-nio-8056-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-20 23:03:18,187 INFO o.s.w.s.DispatcherServlet [http-nio-8056-exec-1] Completed initialization in 1 ms
+2023-01-20 23:03:18,713 INFO c.e.p.e.CustomExceptionHandler [http-nio-8056-exec-1] BusinessException is thrown -level-info: EMAIL_ALREADY_EXIST - The Email With You Are Trying To Register Already Exists
+2023-01-20 23:03:18,713 WARN c.e.p.e.CustomExceptionHandler [http-nio-8056-exec-1] BusinessException is thrown -level-warn: EMAIL_ALREADY_EXIST - The Email With You Are Trying To Register Already Exists
+2023-01-20 23:03:18,713 ERROR c.e.p.e.CustomExceptionHandler [http-nio-8056-exec-1] BusinessException is thrown -level-error: EMAIL_ALREADY_EXIST - The Email With You Are Trying To Register Already Exists
+2023-01-20 23:04:17,174 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-20 23:04:17,178 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-01-20 23:04:17,196 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-01-20 23:04:27,706 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-01-20 23:04:27,797 INFO c.e.p.PropertyManagment1Application [main] Starting PropertyManagment1Application using Java 19.0.1 with PID 12992 (C:\Users\21266\Downloads\Udemy Download\Ranjan Pandey\Zero to Hero Java SpringBoot & JPA Mastery with Real Project\code source\property-managment1\target\classes started by 21266 in C:\Users\21266\Downloads\Udemy Download\Ranjan Pandey\Zero to Hero Java SpringBoot & JPA Mastery with Real Project\code source\property-managment1)
+2023-01-20 23:04:27,800 INFO c.e.p.PropertyManagment1Application [main] The following 1 profile is active: "dev"
+2023-01-20 23:04:29,252 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-20 23:04:29,376 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 108 ms. Found 2 JPA repository interfaces.
+2023-01-20 23:04:30,411 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8056 (http)
+2023-01-20 23:04:30,431 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8056"]
+2023-01-20 23:04:30,435 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-01-20 23:04:30,435 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-20 23:04:30,628 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-01-20 23:04:30,629 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2705 ms
+2023-01-20 23:04:30,892 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-20 23:04:31,029 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-20 23:04:31,359 WARN o.h.o.deprecation [main] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-20 23:04:31,622 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-01-20 23:04:31,909 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c8ff67
+2023-01-20 23:04:31,913 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-01-20 23:04:31,950 INFO SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-20 23:04:31,950 WARN o.h.o.deprecation [main] HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-01-20 23:04:34,022 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-20 23:04:34,048 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-20 23:04:34,875 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-20 23:04:35,394 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8056"]
+2023-01-20 23:04:35,431 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8056 (http) with context path ''
+2023-01-20 23:04:35,444 INFO c.e.p.PropertyManagment1Application [main] Started PropertyManagment1Application in 8.587 seconds (process running for 10.509)
+2023-01-20 23:04:37,120 INFO o.a.c.c.C.[.[.[/] [http-nio-8056-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-20 23:04:37,121 INFO o.s.w.s.DispatcherServlet [http-nio-8056-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-20 23:04:37,123 INFO o.s.w.s.DispatcherServlet [http-nio-8056-exec-1] Completed initialization in 1 ms
+2023-01-20 23:04:37,636 INFO c.e.p.e.CustomExceptionHandler [http-nio-8056-exec-1] BusinessException is thrown -level-info: EMAIL_ALREADY_EXIST - The Email With You Are Trying To Register Already Exists
+2023-01-20 23:04:37,636 WARN c.e.p.e.CustomExceptionHandler [http-nio-8056-exec-1] BusinessException is thrown -level-warn: EMAIL_ALREADY_EXIST - The Email With You Are Trying To Register Already Exists
+2023-01-20 23:04:37,636 ERROR c.e.p.e.CustomExceptionHandler [http-nio-8056-exec-1] BusinessException is thrown -level-error: EMAIL_ALREADY_EXIST - The Email With You Are Trying To Register Already Exists
+2023-01-20 23:05:09,253 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-20 23:05:09,257 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-01-20 23:05:09,273 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-01-20 23:08:02,033 WARN o.h.o.deprecation [main] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-20 23:08:02,621 WARN o.h.o.deprecation [main] HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-01-20 23:08:05,030 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-20 23:08:12,411 WARN c.e.p.e.CustomExceptionHandler [http-nio-8056-exec-4] BusinessException is thrown -level-warn: EMAIL_ALREADY_EXIST - The Email With You Are Trying To Register Already Exists
+2023-01-20 23:08:12,411 ERROR c.e.p.e.CustomExceptionHandler [http-nio-8056-exec-4] BusinessException is thrown -level-error: EMAIL_ALREADY_EXIST - The Email With You Are Trying To Register Already Exists

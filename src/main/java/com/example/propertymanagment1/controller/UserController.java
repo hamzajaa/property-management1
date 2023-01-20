@@ -3,6 +3,7 @@ package com.example.propertymanagment1.controller;
 import com.example.propertymanagment1.converter.UserConverter;
 import com.example.propertymanagment1.modelOrDto.UserDTO;
 import com.example.propertymanagment1.service.facde.UserService;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,7 +19,7 @@ public class UserController {
     private UserConverter userConverter;
 
     @PostMapping("/register")
-    public ResponseEntity<UserDTO> register(@RequestBody UserDTO userDTO) {
+    public ResponseEntity<UserDTO> register(@Valid @RequestBody UserDTO userDTO) {
         userDTO = userService.register(userDTO);
 
         ResponseEntity<UserDTO> responseEntity = new ResponseEntity<>(userDTO, HttpStatus.CREATED);
@@ -26,7 +27,7 @@ public class UserController {
     }
 
     @PostMapping("/login")
-    public ResponseEntity<UserDTO> login(@RequestBody UserDTO userDTO) {
+    public ResponseEntity<UserDTO> login(@Valid @RequestBody UserDTO userDTO) {
         userDTO = userService.login(userDTO.getUserEmail(), userDTO.getPassword());
         return new ResponseEntity<>(userDTO, HttpStatus.OK);
     }

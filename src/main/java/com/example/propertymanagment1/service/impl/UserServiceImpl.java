@@ -7,6 +7,8 @@ import com.example.propertymanagment1.exception.ErrorModel;
 import com.example.propertymanagment1.modelOrDto.UserDTO;
 import com.example.propertymanagment1.repository.UserRepository;
 import com.example.propertymanagment1.service.facde.UserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
